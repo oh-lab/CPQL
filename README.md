@@ -15,7 +15,7 @@ pip install -r requirements/requirements_dev.txt
 ## Training
 To train d4rl datasets,
 ```
-python reward_learning/learn_reward.py --config=configs/dial-turn-v2/reward.yaml
+python algorithms/cpql.py --config configs/cpql/hopper/random_v2.yaml
 ```
 
 ## Citing CORL
