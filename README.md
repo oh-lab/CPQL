@@ -2,17 +2,13 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2210.07105-b31b1b.svg)](https://arxiv.org/abs/2210.07105)
 
-🧵 This paper introduces CPQL: Conservative Peng's Q($\lambda$), mitigates overly-pessimistic value estimation, achieves the performance greater than (or equal to) that of the behavior policy, and provides near-optimal performance guarantees. Code is heavily inspired by [CORL](https://github.com/tinkoff-ai/CORL) for offlilne RL codebase.<br/>
+🧵 This paper introduces CPQL: Conservative Peng's Q($\lambda$), mitigates overly-pessimistic value estimation, achieves the performance greater than (or equal to) that of the behavior policy, and provides near-optimal performance guarantees. This codebase is heavily inspired by [CORL](https://github.com/tinkoff-ai/CORL), an offline RL codebase.<br/>
 
 ## Getting started
-
+For first-time installation, please follow the installation instructions provided in the CORL GitHub repository.
 ```bash
 git clone https://github.com/tinkoff-ai/CORL.git && cd CORL
 pip install -r requirements/requirements_dev.txt
-
-# alternatively, you could use docker
-docker build -t <image_name> .
-docker run --gpus=all -it --rm --name <container_name> <image_name>
 ```
 
 
