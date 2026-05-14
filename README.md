@@ -5,12 +5,18 @@
 🧵 This paper introduces CPQL: Conservative Peng's Q($\lambda$), mitigates overly-pessimistic value estimation, achieves the performance greater than (or equal to) that of the behavior policy, and provides near-optimal performance guarantees. This codebase is heavily inspired by [CORL](https://github.com/tinkoff-ai/CORL), an offline RL codebase.<br/>
 
 ## Getting started
-For first-time installation, please follow the installation instructions provided in the CORL GitHub repository.
+
+For first-time installation, please follow the installation instructions provided in the [CORL](https://github.com/tinkoff-ai/CORL) GitHub repository.
 ```bash
 git clone https://github.com/tinkoff-ai/CORL.git && cd CORL
 pip install -r requirements/requirements_dev.txt
 ```
 
+## Training
+To train d4rl datasets,
+```
+python reward_learning/learn_reward.py --config=configs/dial-turn-v2/reward.yaml
+```
 
 ## Citing CORL
 
